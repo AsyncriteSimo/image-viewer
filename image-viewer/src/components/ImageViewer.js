@@ -25,7 +25,7 @@ function ImageViewer() {
 
   return (
     <div className="image_viewer" >
-        <div className="heading" >Image Viewer</div>
+        <div className="heading" >Multiple Image Viewer</div>
 
         <div>
             <input type="file" id="file" multiple onChange={handleImageChange}  />
